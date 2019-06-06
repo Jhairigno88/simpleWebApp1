@@ -11,7 +11,7 @@
 <h1>Utente creato!</h1>
 
 <p>
-			<% User u=(User)request.getAttribute("user"); %>
+			<% User u=(User)request.getAttribute("user" ); %>
 			<!-- inserendo l'attributo (user) che ci viene dato dalla servlet
 			dovremo andare a modificare i comandi request qui sotto eliminando
 			la prima parte di comando : (String fName=request.getParameter("first_name")
