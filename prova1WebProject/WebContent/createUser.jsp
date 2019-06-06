@@ -10,14 +10,45 @@
 <h1>Crea nuovo utente!</h1>
 
 <form method="POST" action="CreateUser.do">
-	First name: <input type="text" size="40" name="first_name"/>
-	<br>
-	Last name :  <input type="text" size="40" maxlength="40" name="last_name"/>
-	<br>
-	Country   :    <input type="text" size="40" maxlength="40" name="country"/>
-	<br>
-	E_mail    : <input type="text" size="40" maxlength="40" name="email"/>
-	<input type="submit" value="create">
+	<table style="bgcolor:green" width=75%>
+	<tr>
+		<td style="textalign:center">
+			Nome: 
+		</td>
+		<td>
+			<input type="text" size="30" maxlength="30" name="first_name"/>
+		</td>
+	</tr>
+	<tr>
+		<td style="textalign:center">
+			Cognome:  
+		</td>
+		<td>
+			<input type="text" size="30" maxlength="30" name="last_name"/>
+		</td>
+	</tr>
+	<tr>
+		<td style="textalign:center">
+			Paese:    
+		</td>
+		<td>
+			<input type="text" size="30" maxlength="30" name="country"/>
+		</td>
+	</tr>	
+	<tr>
+		<td style="textalign:center">
+			E_mail: 
+		</td>
+		<td>
+			<input type="text" size="30" maxlength="30" name="email"/>
+		</td>
+	</tr>	
+	<tr>
+		<td>
+			<input type="submit" value="create">
+		</td>
+	</tr>
+	</table>
 </form>
 
 <a href="mostraDB.do">Mostrami tutto il DB</a>
