@@ -16,8 +16,11 @@
 	<br>
 	Country   :    <input type="text" size="40" maxlength="40" name="country"/>
 	<br>
+	E_mail    : <input type="text" size="40" maxlength="40" name="email"/>
 	<input type="submit" value="create">
 </form>
+
+<a href="mostraDB.do">Mostrami tutto il DB</a>
 
 </body>
 </html>

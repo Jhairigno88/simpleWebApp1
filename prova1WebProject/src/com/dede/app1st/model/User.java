@@ -24,10 +24,26 @@ public class User {
 	private String last_name;
 	@Column(name="country")
 	private String country;
+	@Column(name="e_mail")
+	private String e_mail;
 	
 	
-	public User(String parameter, String parameter2, String parameter3) {
+	
+	public User() {}
+	public User(String first_name, String last_name, String country, String e_mail) {
 		
+		this.first_name=first_name;
+		this.last_name=last_name;
+		this.country=country;
+		this.e_mail=e_mail;
+	}
+	
+	
+	public String getE_mail() {
+		return e_mail;
+	}
+	public void setE_mail(String e_mail) {
+		this.e_mail = e_mail;
 	}
 	public int getId() {
 		return id;
