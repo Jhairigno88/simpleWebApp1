@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class AddUser
  */
-@WebServlet("/CreateUser.do" )
+@WebServlet("/Lista.do" )
 public class MostraDB extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
