@@ -17,8 +17,6 @@
 	Country   :    <input type="text" size="40" maxlength="40" name="country"/>
 	<br>
 	<input type="submit" value="create">
-
-
 </form>
 
 </body>

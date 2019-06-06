@@ -26,6 +26,9 @@ public class User {
 	private String country;
 	
 	
+	public User(String parameter, String parameter2, String parameter3) {
+		
+	}
 	public int getId() {
 		return id;
 	}
